@@ -26,7 +26,29 @@ header {
 }
 
 header > h1 {
+    padding-top: 50px;
     font-family: var(--font2), monospace;
     font-size: 3em;
     font-weight: normal;
+}
+
+header > p {
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
