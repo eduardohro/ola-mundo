@@ -6,6 +6,23 @@
     <title>Hello, World!</title>
     <link rel="shortcut icon" href="/imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <style>
+        section.imagem {
+            color: white;
+            box-shadow: inset 6px 6px 13px 0px rgb(0, 0, 0.507);
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        section.imagem > p {
+            display: inline-block;
+            padding: 5px;
+            text-shadow: 1px 1px 0px black;
+        }
+        section#img01 {
+            background-image: url('/imagens/tela-script2.jpg');
+            background-position: left top;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -32,6 +49,14 @@
 
                 Acredita-se que o primeiro exemplo de “Hello World” tenha sido criado por Brian Kernighan, coautor do livro “The C Programming Language”. Em sua obra, Kernighan incluiu um programa simples em C que exibia a frase “hello, world” na tela. Esse programa foi adotado como um padrão informal para testar a funcionalidade básica de uma nova linguagem de programação.
             </p>
+
+            <section>
+                <p>
+                    <code>
+                        print("Hello, World!")
+                    </code>
+                </p>
+            </section>
 
             <h2>
                 Propósito Original
