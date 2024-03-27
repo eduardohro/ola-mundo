@@ -10,30 +10,37 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 1en;
+    font-size: 1em;
 }
 
 html, body {
     min-height: 100vh;
     background-color: darkgray;
     font-family: var(--font1);
+    text-align: justify;
 }
 
 header {
     background-color: black;
     color: white;
     text-align: center;
+    padding-top: 10vh;
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 3.5vw;
 }
 
 header > h1 {
     padding-top: 50px;
     font-family: var(--font2), monospace;
-    font-size: 3em;
+    font-size: 2.8em;
     font-weight: normal;
 }
 
 header > p {
     padding-bottom: 50px;
+    font-size: .8em;
 }
 
 a {
@@ -44,6 +51,24 @@ a {
 
 header a:hover, footer a:hover {
     text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+main p {
+    margin: 15px 0px;
 }
 
 footer {
