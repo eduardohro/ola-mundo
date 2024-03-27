@@ -71,6 +71,10 @@ main p {
     margin: 15px 0px;
 }
 
+main p > strong {
+    font-family: var(--font2);
+}
+
 footer {
     background-color: black;
     color: white;
