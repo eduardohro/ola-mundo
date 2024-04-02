@@ -21,11 +21,17 @@ html, body {
 }
 
 header {
-    background-color: black;
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../imagens/fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
     color: white;
     text-align: center;
     line-height: 2em;
-    padding-left: 30px;
 }
 
 header > h1 {
@@ -92,22 +98,20 @@ section > p {
 }
 
 section.imagem {
+    background-image: url('../imagens/tela-script.png');
     background-color: rgba(3, 3, 3, 0.932);
-    color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.877);
     background-size: cover;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.877);
+    width: 368px;
+    height: 150px;
+    margin: auto;
 }
 
-section.imagem > p {
+section.imagem > code {
     display: inline-block;
     padding: 5px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.336);
-}
-
-section#img01 {
-    background-image: url('/imagens/tela-script2.jpg');
-    background-position: left;
 }
 
 footer {
