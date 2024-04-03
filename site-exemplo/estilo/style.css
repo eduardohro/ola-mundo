@@ -53,17 +53,13 @@ a {
     font-weight: bolder;
 }
 
-footer a:hover {
-    text-decoration: underline;
-}
-
 article > p {
     padding-bottom: 1em;
 }
 
 main {
     padding: 60px 20px 20px;
-    min-width: 300px;
+    min-width: 400px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
@@ -142,6 +138,10 @@ footer {
     font-size: 15px;
     text-align: center;
     padding: 10px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 @media screen and (min-width: 992px) {
