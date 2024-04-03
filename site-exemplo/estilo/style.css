@@ -94,6 +94,18 @@ main p > strong {
     font-family: var(--font2);
 }
 
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 2px 6px;
+}
+
+.comandos > h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 .centro {
     background-color: #262626;
     max-width: 500px;
@@ -104,6 +116,7 @@ main p > strong {
    color: white;
    text-align: center;
    padding: 20px 40px;
+   font-size: 20px;
 }
 
 footer {
@@ -111,4 +124,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+}
+
+@media screen and (min-width: 992px) {
+    .centro {
+        max-width: 900px;
+        columns: 2;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
