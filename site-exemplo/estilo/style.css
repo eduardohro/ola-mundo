@@ -57,8 +57,12 @@ header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
+article > p {
+    padding-bottom: 1em;
+}
+
 main {
-    padding: 20px;
+    padding: 60px 20px 20px;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
@@ -73,6 +77,7 @@ main h1 {
 }
 
 main h2 {
+    padding-top: 40px;
     font-size: 1.3em;
     text-indent: 8px;
     font-weight: normal;
@@ -89,29 +94,16 @@ main p > strong {
     font-family: var(--font2);
 }
 
-section {
-    padding-left: 30px;
-}
-
-section > p {
-    padding-bottom: 2em;
-}
-
-section.imagem {
-    background-image: url('../imagens/tela-script.png');
-    background-color: rgba(3, 3, 3, 0.932);
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.877);
-    width: 368px;
-    height: 150px;
+.centro {
+    background-color: #262626;
+    max-width: 500px;
     margin: auto;
 }
 
-section.imagem > code {
-    display: inline-block;
-    padding: 5px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.336);
+.titulo {
+   color: white;
+   text-align: center;
+   padding: 20px 40px;
 }
 
 footer {
