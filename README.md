@@ -5,7 +5,8 @@
 
 Este projeto é uma exploração sobre a origem e o significado do termo "Hello, World!" na programação. O famoso "Hello, World!" é frequentemente utilizado como o primeiro programa que os iniciantes escrevem ao aprender uma nova linguagem de programação.
 
-![Hello, World!](insira_aqui_o_link_para_a_imagem_do_projeto)
+![Hello, World!](![ola-mundo](https://github.com/Eduado-Rodrigues/ola-mundo/assets/159492869/3359c592-08e2-4676-a62f-344525c79b90)
+)
 
 ## Tecnologias Utilizadas
 
