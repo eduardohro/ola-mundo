@@ -16,4 +16,4 @@ Este projeto é uma exploração sobre a origem e o significado do termo "Hello,
 
 Neste site, você encontrará informações interessantes sobre a história por trás do "Hello, World!" e por que ele se tornou uma tradição na programação. Explore nosso conteúdo para descobrir curiosidades sobre este termo icônico!
 
-[Visite o Site](https://eduado-rodrigues.github.io/ola-mundo/site-exemplo/)
+[Visite o Site](https://eduardohro.github.io/ola-mundo/site-exemplo/)
