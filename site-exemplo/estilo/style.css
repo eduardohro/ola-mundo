@@ -34,6 +34,17 @@ header {
     line-height: 2em;
 }
 
+.hello-world {
+    position: relative;
+    height: 50vh;
+    width: 100%;
+    background-image: url("../imagens/fundo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+}
+
 header > h1 {
     padding-top: 50px;
     font-family: var(--font2), monospace;
